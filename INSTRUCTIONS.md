@@ -65,7 +65,7 @@ var answers = ["Independence Day | Fourth of July | July 4th", "Memorial Day", "
 13. Add an onload event handler to the body tag (e) that calls the setup() function.
 
 
-Preview the page again. You should see the starting score (0/number of questions) appear under the Score heading and the time limit should appear under the Time heading. If you do not see the score or time limit, then you have made an error in your configuration variables or in the line that connects the HTML file to the JavaScript file and will need to double check steps 10-13.
+Preview the page again. You should see the starting score (0/number of questions) appear under the Score heading and the time limit should appear under the Time heading. If you do not see the score or time limit, then you have made an error in your configuration variables or in the line that connects the HTML file to the JavaScript file and will need to double check all steps in this section.
 
 DO NOT MOVE ON UNLESS EVERYTHING TO THIS POINT WORKS CORRECTLY.
 
@@ -98,10 +98,7 @@ Part 5 - Game Play
 
 19. Write a statement at (w) that puts correct/total in the score span tag. The setup() function already does this. Look there to see how.
 
-20. The check function actually makes use of a function called isAlphanumericMatch() which strips all non-alphanumeric characters from two strings and converts both to lowercase prior to comparison. Write a
-conditional statement at (z) which returns true if str1 and str2 match and returns false otherwise.
-
-21. When the actual game of Sporcle is played, you may have noticed that you don't need to actually hit enter to get your answers checked. Instead, Sporcle responds to the onkeyup event. Add an onkeyup event handler to the guess field (k) that calls the check() function.
+20. When the actual game of Sporcle is played, you may have noticed that you don't need to actually hit enter to get your answers checked. Instead, Sporcle responds to the onkeyup event. Add an onkeyup event handler to the guess field (k) that calls the check() function.
 
 
 Preview and test again. Start the game and begin typing in answers. Each time you enter an answer correctly, it should show up in the corresponding location in the answer table and the score should update accordingly. If you guess all of the answers, then the game should end. Also, if time runs out, the remaining answers should be filled in the table at the end of the game. Confirm that you can disregard punctuation and capitalization while playing also.
@@ -112,17 +109,19 @@ DO NOT MOVE ON UNLESS EVERYTHING TO THIS POINT WORKS CORRECTLY.
 
 Part 6 - Additional Styling
 
-22. Add a statement in the start() function at (q) that changes the color of the time text to green while the timer is running.
+21. Add a statement in the start() function at (q) that changes the color of the time text to green while the timer is running.
 
-23. Add a statement in the end() function at (x) that changes the color of the time text to red when the game ends.
+22. Add a statement in the end() function at (x) that changes the color of the time text to red when the game ends.
 
-24. The end() function fills in any missing answers once the game is complete. It should also highlight correct and incorrect answers. Add statements to the conditional at (y) that highlights each correct answer one color and each wrong answer another. (The variable id in the loop will contain the actual id for the answers location in the table. Highlight by changing the background color of the element with this id.)
+23. The end() function fills in any missing answers once the game is complete. It should also highlight correct and incorrect answers. Add statements to the conditional at (y) that highlights each correct answer one color and each wrong answer another. (The variable id in the loop will contain the actual id for the answers location in the table. Highlight by changing the background color of the element with this id.)
 
-At this point, your game should be fully playable. Try it out! It is okay to move on even if you aren't able to complete steps 22-24. Just undo anything you tried so that the game back to a playable state before you do move on. If you do figure out how to get these items complete later, then the extra games you will have made will all still work.
+At this point, your game should be fully playable. Try it out! It is okay to move on even if you aren't able to complete all steps in this section. Just undo anything you tried so that the game back to a playable state before you do move on. If you do figure out how to get these items complete later, then the extra games you will have made will all still work.
 
 
 
 Part 7 - Finishing Touches
+
+24. The check function actually makes use of a function called isAlphanumericMatch() which strips all non-alphanumeric characters from two strings prior to comparison. However, the comparison is still case-sensitive. Modify the conditional statement at (z) so that both str1 and str2 are converted to lowercase prior to comparison.
 
 25. We can make the start() function automatically place the cursor in the guess field so the user doesn't have to click in the field to play. Write a statement at (r) to do this. (Google 'JavaScript focus'.)
 
@@ -130,8 +129,7 @@ Part 7 - Finishing Touches
 
 27. It is not required, but you may optionally write include custom CSS in the style tags located in the head of the games HTML file. This space is provided because there may be instances where additional CSS may be helpful because of varying table layout among games. (Don’t modify main.css as it contains CSS which applies to all games.)
 
-It is okay to move on even if you aren't able to complete steps 25-27. Just undo anything you tried so that the game back to a playable state before you do move on. If you do figure out how to get these items complete, then the extra games
-you make will all still work.
+It is okay to move on even if you aren't able to complete all steps in this section. Just undo anything you tried so that the game back to a playable state before you do move on. If you do figure out how to get these items complete later, then the extra games you will have made will all still work.
 
 
 
@@ -154,10 +152,10 @@ Remember, at least one of your games should be image based (like the logo quizze
 
 Part 9 - Final Review
 
-30. Congratulations! Now you should self-grade each of your quizzes according to the checklist provided. Then have each of your games evaluated by a different classmate. After they review your games, make any changes necessary and submit your project for grading. Also play the games of other students. Be sure to keep a log of the games you play along with comments on each game.
+30. Congratulations! Now you should self-grade each of your quizzes according to the checklist provided. Then have each of your games evaluated by a different classmate. After they review your games, make any changes necessary.
 
 
 
 Part 10 – Project Submission and grading
 
-Attach the grading cover sheet to the top of your three reviews and your play log. Open one of your games in Chrome and I will play it. Once I confirm that the reviews are accurate, I will assign your grade.
+Instructions for submission will be posted soon.

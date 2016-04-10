@@ -20,7 +20,7 @@ var playing;
 
 
 /**
- * Sets initial game state. 
+ * Sets initial game state.
  */
 function setup()
 {
@@ -38,7 +38,7 @@ function setup()
 
     document.getElementById('score').innerHTML = correct + "/" + total;
 
-    // o. 
+    // o.
     document.getElementById('time').innerHTML = time_remaining;
 }
 
@@ -55,13 +55,13 @@ function start()
         document.getElementById('start').onclick = function() { end() };
 
 
-        // p. 
-
-    
-        // q. 
+        // p.
 
 
-        // r. 
+        // q.
+
+
+        // r.
 
 
     }
@@ -73,7 +73,7 @@ function start()
  */
 function tick()
 {
-    // s. 
+    // s.
     document.getElementById('time').innerHTML = time_remaining;
 
     // t.
@@ -98,36 +98,36 @@ function check()
     if (playing)
     {
         var guess = document.getElementById('guess').value;
-    
+
         for (var i=0; i<answers.length; i++)
         {
             if (!is_guessed[i])
             {
                 var acceptable = answers[i].split('|');
                 var preferred = acceptable[0];
-    
+
                 for (var j=0; j<acceptable.length; j++)
                 {
                     if (isAlphanumericMatch(acceptable[j], guess))
                     {
                         var id = 'answer' + i;
-    
+
                         document.getElementById(id).innerHTML = preferred;
                         document.getElementById('guess').value = "";
-        
-                        is_guessed[i] = true;
-        
-                        // v.
-        
-        
-                        // w. 
 
-    
+                        is_guessed[i] = true;
+
+                        // v.
+
+
+                        // w.
+
+
                     }
                 }
             }
         }
-    
+
         if (correct == answers.length)
         {
             end();
@@ -150,7 +150,10 @@ function end()
     {
         var id = 'answer' + i;
 
-        document.getElementById(id).innerHTML = answers[i];
+        var acceptable = answers[i].split('|');
+        var preferred = acceptable[0];
+
+        document.getElementById(id).innerHTML = preferred;
 
         // y.
         if (is_guessed[i]==true)
@@ -169,7 +172,7 @@ function end()
 
 /**
  * Creates a formatted time string.
- * 
+ *
  * @param {number} Time in seconds.
  * @return {string} Time in mM:SS form.
  */
@@ -198,12 +201,15 @@ function formatTime(seconds)
 function isAlphanumericMatch(str1, str2)
 {
     str1 = str1.replace(/[^a-zA-Z0-9]+/g, '');
-    str1 = str1.toLowerCase();
-
     str2 = str2.replace(/[^a-zA-Z0-9]+/g, '');
-    str2 = str2.toLowerCase();
-    
-    // z. 
 
-    
+    // z.
+    if (str1 == str2)
+    {
+        return true;
+    }
+    else
+    {
+        return false;
+    }
 }
