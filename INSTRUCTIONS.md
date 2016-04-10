@@ -55,8 +55,9 @@ Part 3 - JavaScript Configuration
 
 10. Locate the script tags containing the game configuration variables. Edit the answers array (c) to contain all answers to your quiz. Be sure that each value is in quotes. It is not necessary to account for differences in spacing or punctuation when listing the answers. During game play, all non-alphanumeric characters are stripped and characters are converted to lowercase before guesses and answers are compared. Therefore, including "Pac-Man" in the answers array will automatically allow for variations such as "pac-man" and "pacman" to be accepted.
 
-If you have a question where you would like to accept multiple answers, then use the pipe symbol as a delimiter. The first answer is the preferred answer and will be filled into the table if any acceptable answer is given. For example, a Holidays game might have an answers array as follows:
-var answers = ["Independence Day | Fourth of July | July 4th", "Memorial Day", "Veterans Day", "Thanksgiving"];
+ If you have a question where you would like to accept multiple answers, then use the pipe symbol as a delimiter. The first answer is the preferred answer and will be filled into the table if any acceptable answer is given. For example, a Holidays game might have an answers array as follows:
+
+ var answers = ["Independence Day | Fourth of July | July 4th", "Memorial Day", "Veterans Day", "Thanksgiving"];
 
 11. Edit the time_limit variable (d) to give an appropriate amount of time (in seconds) to play the game.
 
