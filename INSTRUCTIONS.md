@@ -81,7 +81,7 @@ Part 4 - The Timer
 16. Add an onclick event handler to the start button (i) that calls the start() function. Preview your page now and test the start button. You should see the time count down. For testing purposes, you may
 want to use a small time_limit of a just few seconds so that you can see what happens when the clock stops ticking.
 
-If the start button does not cause your timer to count down correctly, then you need to double check steps 14-16.
+ If the start button does not cause your timer to count down correctly, then you need to double check the previous steps.
 
 17. A formatTime() function has been included in the sporclone.js file. Apply the formatTime() function to time_remaining at (o) so that it is initially displayed in mM:SS form. Also apply formatTime() to
 time_remaining at (s) so that it is displayed in mM:SS form while the clock is running as well.
@@ -145,7 +145,7 @@ Creating extra games does not require any updates to the sporclone.js or main.cs
 - Edit the game configuration section.
 - Edit the table so that you have cells to correspond to each answer.
 
-Remember, at least one of your games should be image based (like the logo quizzes) and that no game should have fewer than 10 answers. At least one of your games should have 20 or more answers.
+ Remember, at least one of your games should be image based (like the logo quizzes) and that no game should have fewer than 10 answers. At least one of your games should have 20 or more answers.
 
 29. Edit the links in the "More Games" section (f) so that each game links to the two others you created.
 
