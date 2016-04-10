@@ -15,7 +15,7 @@ Periodically you will be asked to preview and test your page. If the page does n
 
 ###Part 1 - Project Files
 
-1. Save the game.html, sporclone.js, and style.css files to your dated Sporclone directory. If you preview the game.html file now, you'll see that it is an unstyled and non-functioning quiz on South Carolina mountain peaks.
+1. Save the game.html, sporclone.js, and main.css files to your dated Sporclone directory. If you preview the game.html file now, you'll see that it is an unstyled and non-functioning quiz on South Carolina mountain peaks.
 
 2. Change the name of the game.html file so that it reflects the name of your puzzle. Be sure that your file name is in all lowercase letters. Use underscores instead of spaces.
 
