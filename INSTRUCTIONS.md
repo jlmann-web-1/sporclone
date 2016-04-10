@@ -1,12 +1,11 @@
-###Project: Sporclone
+#Sporclone Instructions:
 
-###Project Description:
-
+##Project Description
 Create a working clone of the game Sporcle (http://www.sporcle.com/). On this project, you will demonstrate your ability to integrate JavaScript into a web page as well as your ability to modify JavaScript to suit specific needs.
 
 The instructions below describe how you will need to edit the template files to make a working game. By the time you finish, you will have created three games. At least one of your games should be image based (like the logo quizzes). No game should have fewer than 10 answers. At least one of your games should have at least 20.
 
-###Instructions:
+##Instructions:
 
 Most of the numbered steps refer to a letter which identifies a particular location in the HTML and JavaScript files. Letters a-n are in game.html, and o-z are in sporclone.js. Follow the steps in order of the numbered instructions. The letters are only labels and do not reflect the order in which code should be completed.
 
@@ -14,13 +13,13 @@ Understand that on this project you are not writing large blocks of HTML or Java
 
 Periodically you will be asked to preview and test your page. If the page does not work exactly as intended, then you should not move on from that section.
 
-###Part 1 - Project Files
+##Part 1 - Project Files
 
 1. Save the game.html, sporclone.js, and style.css files to your dated Sporclone directory. If you preview the game.html file now, you'll see that it is an unstyled and non-functioning quiz on South Carolina mountain peaks.
 
 2. Change the name of the game.html file so that it reflects the name of your puzzle. Be sure that your file name is in all lowercase letters. Use underscores instead of spaces.
 
-###Part 2 - Quiz Appearance
+##Part 2 - Quiz Appearance
 
 3. Add a line of code at (b) to connect the HTML file to main.css.
 
@@ -40,7 +39,7 @@ Preview your HTML page. At this point you see that the page has a nice layout si
 
 DO NOT MOVE ON UNLESS EVERYTHING TO THIS POINT WORKS CORRECTLY.
 
-###Part 3 - JavaScript Configuration
+##Part 3 - JavaScript Configuration
 
 10. Locate the script tags containing the game configuration variables. Edit the answers array (c) to contain all answers to your quiz. Be sure that each value is in quotes. It is not necessary to account for differences in spacing or punctuation when listing the answers. During game play, all non-alphanumeric characters are stripped and characters are converted to lowercase before guesses and answers are compared. Therefore, including "Pac-Man" in the answers array will automatically allow for variations such as "pac-man" and "pacman" to be accepted.
 
@@ -58,7 +57,7 @@ Preview the page again. You should see the starting score (0/number of questions
 
 DO NOT MOVE ON UNLESS EVERYTHING TO THIS POINT WORKS CORRECTLY.
 
-###Part 4 - The Timer
+##Part 4 - The Timer
 
 14. The start() function is responsible for getting the timer to start running. At location (p), set the value of the variable timer so that it uses the setInterval() function to call the tick function once per second.
 
@@ -76,7 +75,7 @@ Preview and test the timer one more time. Make sure that the time is displayed i
 
 DO NOT MOVE ON UNLESS EVERYTHING TO THIS POINT WORKS CORRECTLY.
 
-###Part 5 - Game Play
+##Part 5 - Game Play
 
 18. The check() function is responsible for comparing user input to each element in the array of answers. One feature of the check() function is that it counts the number of correct answers and displays the total. The global variable correct holds the current number of correctly guessed answers. Write a statement at (v) that increases the variable correct by 1.
 
@@ -88,7 +87,7 @@ Preview and test again. Start the game and begin typing in answers. Each time yo
 
 DO NOT MOVE ON UNLESS EVERYTHING TO THIS POINT WORKS CORRECTLY.
 
-###Part 6 - Additional Styling
+##Part 6 - Additional Styling
 
 21. Add a statement in the start() function at (q) that changes the color of the time text to green while the timer is running.
 
@@ -98,7 +97,7 @@ DO NOT MOVE ON UNLESS EVERYTHING TO THIS POINT WORKS CORRECTLY.
 
 At this point, your game should be fully playable. Try it out! It is okay to move on even if you aren't able to complete all steps in this section. Just undo anything you tried so that the game back to a playable state before you do move on. If you do figure out how to get these items complete later, then the extra games you will have made will all still work.
 
-###Part 7 - Finishing Touches
+##Part 7 - Finishing Touches
 
 24. The check function actually makes use of a function called isAlphanumericMatch() which strips all non-alphanumeric characters from two strings prior to comparison. However, the comparison is still case-sensitive. Modify the conditional statement at (z) so that both str1 and str2 are converted to lowercase prior to comparison.
 
@@ -110,7 +109,7 @@ At this point, your game should be fully playable. Try it out! It is okay to mov
 
 It is okay to move on even if you aren't able to complete all steps in this section. Just undo anything you tried so that the game back to a playable state before you do move on. If you do figure out how to get these items complete later, then the extra games you will have made will all still work.
 
-###Part 8 - Additional Games
+##Part 8 - Additional Games
 
 Creating extra games does not require any updates to the sporclone.js or main.css files. You'll only need to edit the game's HTML file. Make two copies of your working HTML file.
 
@@ -120,10 +119,10 @@ Creating extra games does not require any updates to the sporclone.js or main.cs
 
 29. Edit the links in the "More Games" section (f) so that each game links to the two others you created.
 
-###Part 9 - Final Review
+##Part 9 - Final Review
 
 30. Congratulations! Now you should self-grade each of your quizzes according to the checklist provided. Then have each of your games evaluated by a different classmate. After they review your games, make any changes necessary.
 
-###Part 10 – Project Submission and grading
+##Part 10 – Project Submission and grading
 
 Instructions for submission will be posted soon.
