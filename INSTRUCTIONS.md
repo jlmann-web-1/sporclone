@@ -63,13 +63,11 @@ DO NOT MOVE ON UNLESS EVERYTHING TO THIS POINT WORKS CORRECTLY.
 
 15. As the game is played, a variable time_remaining tracks the amount of time the player has left to guess all of the answers. The tick() function is responsible for decreasing the time remaining and for ending the game when time runs out. Add a statement at location (u) that decreases the time_remaining variable by 1.
 
-16. Add an onclick event handler to the start button (i) that calls the start() function. Preview your page now and test the start button. You should see the time count down. For testing purposes, you may
-want to use a small time_limit of a just few seconds so that you can see what happens when the clock stops ticking.
+16. Add an onclick event handler to the start button (i) that calls the start() function.
 
- If the start button does not cause your timer to count down correctly, then you need to double check the previous steps.
+ Preview your page now and test the start button. You should see the time count down. For testing purposes, you may want to use a small time_limit of a just few seconds so that you can see what happens when the clock stops ticking. If the start button does not cause your timer to count down correctly, then you need to double check the previous steps.
 
-17. A formatTime() function has been included in the sporclone.js file. Apply the formatTime() function to time_remaining at (o) so that it is initially displayed in mM:SS form. Also apply formatTime() to
-time_remaining at (s) so that it is displayed in mM:SS form while the clock is running as well.
+17. A formatTime() function has been included in the sporclone.js file. Apply the formatTime() function to time_remaining at (o) so that it is initially displayed in mM:SS form. Also apply formatTime() to time_remaining at (s) so that it is displayed in mM:SS form while the clock is running as well.
 
 Preview and test the timer one more time. Make sure that the time is displayed in mM:SS form when the page is initially previewed and that it continues to display correctly while the clock is ticking.
 
