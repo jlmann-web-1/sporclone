@@ -33,7 +33,7 @@ Periodically you will be asked to preview and test your page. If the page does n
 
 8. Edit the footer (m) to give yourself credit for making the quiz
 
-9. Edit the table (g) to provide space for each answer. The IDs of the span tags for each answer must be answer0, answer1, answer2, etc. Choose dimensions for your table that best display your answers. If possible, prevent the need to scroll while playing. DO NOT ACTUALLY TYPE ANY ANSWERS INTO THE TABLE.
+9. Edit the table (l) to provide space for each answer. The IDs of the span tags for each answer must be answer0, answer1, answer2, etc. Choose dimensions for your table that best display your answers. If possible, prevent the need to scroll while playing. DO NOT ACTUALLY TYPE ANY ANSWERS INTO THE TABLE.
 
 Preview your HTML page. At this point you see that the page has a nice layout since you have applied the CSS. Make sure the title tag is correctly displaying in the browser tab and that heading text indicates the topic of your quiz. The image icon should display next to the heading that states the topic of your quiz. The text next to the input should clearly indicate what should be entered. The dimensions of the table should provide enough spaces for all answers. Your name should be in the footer. Since you haven't modified any of the JavaScript, the quiz is still not functional. However, the appearance of the quiz should be correct.
 
