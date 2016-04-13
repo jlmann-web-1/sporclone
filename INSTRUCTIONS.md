@@ -81,7 +81,7 @@ DO NOT MOVE ON UNLESS EVERYTHING TO THIS POINT WORKS CORRECTLY.
 
 20. When the actual game of Sporcle is played, you may have noticed that you don't need to actually hit enter to get your answers checked. Instead, Sporcle responds to the onkeyup event. Add an onkeyup event handler to the guess field (k) that calls the check() function.
 
-Preview and test again. Start the game and begin typing in answers. Each time you enter an answer correctly, it should show up in the corresponding location in the answer table and the score should update accordingly. If you guess all of the answers, then the game should end. Also, if time runs out, the remaining answers should be filled in the table at the end of the game. Confirm that you can disregard punctuation and capitalization while playing also.
+Preview and test again. Start the game and begin typing in answers. Each time you enter an answer correctly, it should show up in the corresponding location in the answer table and the score should update accordingly. If you guess all of the answers, then the game should end. Also, if time runs out, the remaining answers should be filled in the table at the end of the game. The game is still case-sensitive, so make sure you type your answers using the same case as in the answer configuration section when you play.
 
 DO NOT MOVE ON UNLESS EVERYTHING TO THIS POINT WORKS CORRECTLY.
 
