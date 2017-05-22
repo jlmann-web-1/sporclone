@@ -3,11 +3,11 @@
 ## Description
 Create a working clone of the game Sporcle (http://www.sporcle.com/). On this project, you will demonstrate your ability to integrate JavaScript into a web page as well as your ability to modify JavaScript to suit specific needs.
 
-The instructions below describe how you will need to edit the template files to make a working game. By the time you finish, you will have created three games. At least one of your games should be image based (like the logo quizzes). No game should have fewer than 10 answers. At least one of your games should have at least 20.
+The instructions below describe how you will need to edit the template files to make a working game. ~~By the time you finish, you will have created three games. At least one of your games should be image based (like the logo quizzes).~~ No game should have fewer than 10 answers. ~~At least one of your games should have at least 20.~~
 
 ## Instructions:
 
-Most of the numbered steps refer to a letter which identifies a particular location in the HTML and JavaScript files. Letters a-n are in game.html, and o-z are in sporclone.js. Follow the steps in order of the numbered instructions. The letters are only labels and do not reflect the order in which code should be completed.
+Most of the numbered steps refer to a letter which identifies a particular location in the HTML and JavaScript files. Letters a-n are in index.html, and o-z are in sporclone.js. Follow the steps in order of the numbered instructions. The letters are only labels and do not reflect the order in which code should be completed.
 
 Understand that on this project you are not writing large blocks of HTML or JavaScript from scratch. Nearly every step requires you to modify an existing line of code or to add a single line of code. If you find yourself wanting to do more than that, then you are probably misunderstanding the instructions.
 
@@ -31,7 +31,7 @@ Periodically you will be asked to preview and test your page. If the page does n
 
 7. Find an image representative of your game and save it to your images folder. Then crop the image so that it is a perfect square. The CSS is written to scale the image automatically, but the image still shouldn’t be too large as it will slow down page load time. If necessary resize your image so that it is no larger than 160x160 pixels. Edit the image source (g) so that your image appears as an icon for your game.
 
-8. Edit the footer (m) to give yourself credit for making the quiz
+8. Edit the footer (m) to give yourself credit for making the quiz. Use your first name and last initial only.
 
 9. Edit the table (l) to provide space for each answer. The IDs of the span tags for each answer must be answer0, answer1, answer2, etc. Choose dimensions for your table that best display your answers. If possible, prevent the need to scroll while playing. DO NOT ACTUALLY TYPE ANY ANSWERS INTO THE TABLE.
 
